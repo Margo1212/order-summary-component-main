@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Red Hat Display';
 }
 
 body {
@@ -11,14 +12,105 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('wimages/pattern-background-desktop.svg');
+    background-image: url('/images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #e0e8ff;
 }
 
 .container {
-    width: 20vw;
-    height: 50vh;
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
 }
+
+.container__img {
+    border-radius: 10px 10px 0 0;
+}
+
+.container h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.container > p{
+    text-align: center;
+    color: #a3a9b7;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.planbox {
+    width: 16rem;
+    padding: 15px;
+    margin:20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fe;
+    border-radius: 5px;
+
+}
+.planbox__la {
+    display: flex;
+}
+
+.planbox__la img {   
+    width: 30px;
+    height: 30px;
+}
+
+.planbox__la__desc {
+    padding: 0 0 0 10px;
+}
+.planbox__la__desc h3 {
+    font-size: 12px;
+}
+
+.planbox__la__desc p {
+   font-size: 12px;
+   color: #a3a9b7;
+}
+
+.planbox__link {
+    align-self: center;
+    font-size: 12px;
+}
+
+
+.btn {
+margin: 10px;
+font-size: 10px;
+font-weight: 600;
+letter-spacing: 0.5px;
+
+
+
+}
+
+.first {
+    width: 16rem;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #382ae1;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.second {
+    border: none;
+    background-color: #fff;
+    color: #868e9e;
+}
+
+
+
+
+
+
+
+
 
