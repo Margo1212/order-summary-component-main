@@ -28,6 +28,12 @@ body {
     box-shadow: 0px 6px 15px -3px #00000094;
 }
 
+@media (max-width:400px) {
+    .container {
+        width: 18rem;
+    }
+}
+
 .container__img {
     border-radius: 10px 10px 0 0;
 }
@@ -54,23 +60,23 @@ body {
     border-radius: 5px;
 
 }
-.planbox__la {
+.planbox__right {
     display: flex;
 }
 
-.planbox__la img {   
+.planbox__right img {   
     width: 30px;
     height: 30px;
 }
 
-.planbox__la__desc {
+.planbox__right__desc {
     padding: 0 0 0 10px;
 }
-.planbox__la__desc h3 {
+.planbox__right__desc h3 {
     font-size: 12px;
 }
 
-.planbox__la__desc p {
+.planbox__right__desc p {
    font-size: 12px;
    color: #a3a9b7;
 }
